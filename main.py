@@ -1,14 +1,10 @@
-"""Monday Morning Punchlines entry.
-
-Cracks one Monday-morning joke and drops it in /output/entry.txt.
-Stdlib only, deterministic. The laugh lands on the last word.
-"""
+"""Monday Morning Punchlines entry."""
 import os
 
 JOKE = (
-    "My shower this morning was so good I stood there "
-    "rehearsing what I'd say if anyone at work asked how my weekend was. "
-    "Nobody did. It was Monday."
+    "This morning's shower was so good I stood there "
+    "rehearsing what I'd tell people about my weekend. "
+    "Nobody asked. That's how I knew it was Monday."
 )
 
 LIMIT = 200
